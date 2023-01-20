@@ -1,0 +1,57 @@
+
+[
+{
+"picture":"./images/booki.png",
+"title":"Maquette Booki",
+"texte":" L'objectif du projet Booki était de réaliser la maquette du site en HTLM et CSS uniquement. HTML et CSS sont fondamentaux car ils font partie des langages qu'un navigateur Web comprend. Ils permettent de créer toute la partie visuelle d'un site web et sont utilisés par tous les frameworks front-end type React mais également par toutes les applications plus classique comme Node.js.",
+"projet":"Maquette Booki",
+"formation":"Projet 1 - Openclassroom",
+"description":"Transformer une maquette en site web avec HTML et CSS",
+"lien":"https://github.com/Amelibix/Premier-projet-HTML-et-CSS"
+},
+{
+"picture":"./images/sass.png",
+"title":"Animations Sass",
+"texte":"Sass est un langage CSS préprocessé. C'est un langage qui va ajouter des fonctionnalités au CSS et qui sera ensuite transformé en CSS pour être utilisable par tous les navigateurs.",
+"projet":"Oh my food ! ",
+"formation":"Projet 2 - Openclassroom",
+"description":"Dynamiser une page web avec des animatons css",
+"lien":"https://github.com/Amelibix/Projet-Ohmyfood-"
+},
+{
+"picture":"./images/panthere.png",
+"title":"Optimisation d'un site we",
+"texte":"C'est l'entreprise La Phanthère qui veut améliorerson son site web. Le but de ce projet était d'améliorer la vitesse, l'accessibilité et la SEO du site",
+"projet":"La Panthère",
+"formation":"Projet 3 - Openclassroom",
+"description":"Optimiser un site web existant",
+"lien":"https://github.com/Amelibix/Optimiser-un-site-web"
+},
+{
+"picture":"./images/kanap.png",
+"title":"Maquette Kanap",
+"texte":"L'objectif de ce projet était de reproduire une maquette en JavaScript. Il permet d'ajouter toute la partie interaction avec l'utilisateur et les serveurs. Il permet également la création de site web dynamique.",
+"projet":"Maquette Kanap",
+"formation":"Projet 4 - Openclassroom",
+"description":"Construire un site-e commerce en JavaScript",
+"lien":"https://github.com/Amelibix/Site-e-commerce-en-JavaScript"
+},
+{
+"picture":"./images/piiquante.png",
+"title":"Partie Back-end",
+"texte":"Découverte du côté Back-end avec la création d'une API pour une entreprise. Cela m'a permis d'utiliser Node.js, qui permet de gérer un nombre de requêtes très importantes sans avoir à augmenter les ressources serveurs. De plus j'ai utilisé MongoDB qui permet de créer des bases de données de type NoSQL.",
+"projet":"Piiquante",
+"formation":"Projet 5 - Openclassroom",
+"description":"Construire une API sécurisée pour une application d'avis gastronomique",
+"lien":"https://github.com/Amelibix/Construire_une_API"
+},
+{
+"picture":"./images/kasa.png",
+"title":"React",
+"texte":"Utilisation du framwork React pour reproduire une maquette. React a pour tâche de gérer la partie visuelle de l'application, de manière réactive. ",
+"projet":"Maquette Kasa",
+"formation":"Projet 6 - Openclassroom",
+"description":"Céer une application web de location immobilière avec React",
+"lien":"https://github.com/Amelibix/Application-web-avec-React"
+}
+]

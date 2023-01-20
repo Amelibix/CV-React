@@ -1,0 +1,30 @@
+
+    .containerTechno {
+        align-items: center;
+        padding: 50px 0 ;
+        position: relative;
+        
+    img{
+        object-fit: cover;
+        height: 270px;
+        width: 550px;
+        border: 5px solid var(--gray-1);
+        border-radius: 5px; 
+        
+    }
+        .containerParagraphe{
+            padding: 20px;
+            margin: 20px;
+            border: 10px solid var(--orange);
+            height: min-content;
+            width: 50%;
+            box-shadow: var(--box-shadow);
+            background-color: var(--gray-1);
+            color: var(--color);
+            border-radius: 5px;
+        }
+    }
+    .reverse:nth-child(2n+1){
+            flex-direction: row-reverse;
+            position: relative;
+    }

@@ -1,0 +1,32 @@
+.intro{
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: var(--nav);
+    box-shadow: var(--box-shadow);
+    .texte{
+        color: var(--color);
+        width: 40%;
+        height: 250px;
+        padding: 50px;
+        border: 3px solid var(--orange);
+        border-radius: 10px;
+        text-align: justify;
+    }
+    .image{
+        padding: 60px;
+    }
+    img{
+        height: 250px;
+        width: 250px;
+        object-fit: cover;
+        border-radius: 10px;
+        
+        
+    }
+    h2 {
+        font-size: 28px;
+        color: var(--color);
+    }
+    
+}

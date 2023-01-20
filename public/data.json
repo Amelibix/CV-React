@@ -1,0 +1,46 @@
+[     
+    
+        { 
+            "parcours":"Suite",
+            "title":"Ecole ORT",
+            "date":"Rentrée en Septembre",
+            "texte": "Objectif de faire un Bac +3 en alternance à l'ORT",
+            "id":"1" 
+        },
+        {
+           "parcours":"Formation",
+            "title":"Openclassroom : Développement Web",
+            "date":"6 mois de formation",
+            "texte": "Formation Openclassroom sur le développement Web pendant 6 mois en temps plein. Diplôme de niveau 5 ( bac +2 ) ",
+            "id":"2" 
+        },
+        {
+            "parcours":"Travail en Hôpital",
+            "title":"Préparatrice en Pharmacie ",
+            "date":"2020 - Janvier 2022",
+            "texte": "Préparatrice en pharmacie aux HCL à l'Hôpital Croix Rousse en CDD temps plein",
+            "id":"3"
+        },
+        {
+           "parcours":"Travail en Officine",
+            "title":"Préparatrice en Pharmacie ",
+            "date":"2018 - Mars 2020",
+            "texte": "Préparatrice en pharmacie à la Grande Pharmacie Lyonnaise à Lyon en CDI temps plein",
+            "id":"4" 
+        },
+        {
+             "parcours":"Brevet Professionel",
+            "title":"BP Préparateur en Pharmacie",
+            "date":"Obtenu en 2018",
+            "texte": "BP Préparateur en Pharmacie, SEPR à Lyon ",
+            "id":"5"
+        },
+        {
+            "parcours":"BAC",
+            "title":"Baccalauréat STL ",
+            "date":"Obtenu en 2015",
+            "texte": "BAC STL spécalité Biotechnologie, Lycée la Martinière Duchère à Lyon ",
+            "id":"6" 
+        }
+    
+]

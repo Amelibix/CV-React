@@ -1,0 +1,35 @@
+.styleHeader{
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    padding: 0 50px;
+    height: 70px;
+    background-color: var(--nav);
+    
+    h1{
+        color: var(--color);
+        &:hover{
+            transform: scale(1.1);
+            cursor: pointer; 
+            color:var(--orange);
+          }   
+    }
+    nav {
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        .navLister{
+            align-items: center;   
+        li{
+            display: flex;
+            padding: 10px;  
+            color: var(--color);  
+            &:hover{
+              transform: scale(1.1);
+              cursor: pointer; 
+              color: var(--orange);
+            }   
+            }
+        }
+    }
+}

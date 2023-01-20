@@ -1,0 +1,31 @@
+.footer{
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
+    color: var(--color);
+    background-color: var(--nav);
+    
+    height: 100px;
+    font-size: small;
+    position: relative;
+    .arrow{
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        border: 3px solid var(--orange);
+        border-radius: 5px;
+        cursor: pointer;
+        position: absolute;
+        left: 90%;
+        bottom: 20%;
+        i{
+          color: var(--color); 
+          font-size: 25px;
+          &:hover{
+            color: var(--orange);
+          }
+        }
+    }
+    
+}

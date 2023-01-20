@@ -1,0 +1,23 @@
+.containerProjet {
+
+    background-color: var(--nav);
+    color: var(--color);
+    height: 250px;
+    border-radius: 10px;
+    padding: 25px;
+    h2{
+        padding: 10px 0;
+    }
+    i{
+        color: var(--orange);
+        font-size: 23px;
+
+    }
+    a{
+        text-align: right;
+        &:hover{
+        transform: scaleY(1.1);
+        cursor: pointer;
+        }
+    }
+}

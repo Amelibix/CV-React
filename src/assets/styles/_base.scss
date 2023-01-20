@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: var(--font-family);
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4 {
+    margin: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  ul,ol {
+    
+    padding-left: 0px;
+    margin: 0;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  button{
+    font-family: var(--font-family);
+  }
+  a{
+    text-decoration: none;
+  }
