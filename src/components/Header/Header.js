@@ -5,7 +5,7 @@ function Header() {
     <header className={`d-flex ${styles.styleHeader}`}>
       <nav className="d-flex">
         <div className="d-flex" id="haut">
-          <a href="http://localhost:3000/CVAmelie.pdf">
+          <a href="https://raw.githubusercontent.com/Amelibix/CV-React/main/public/CVAmelie.pdf">
             <h1>Amélie Brun</h1>
           </a>
         </div>
