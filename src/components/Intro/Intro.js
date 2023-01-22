@@ -9,7 +9,7 @@ function Intro() {
         <p>
           Passionnée par le code j'ai décidé de me réorienter dans le
           développement Web. Je viens de terminer ma formation de 6 mois chez
-          Openclassroom et j'aimerai commencer à construire des sites web.
+          Openclassroom et j'aimerais commencer à construire des sites web.
         </p>
       </div>
       <div className={`d-flex ${styles.image}`}>

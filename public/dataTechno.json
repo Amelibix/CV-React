@@ -3,7 +3,7 @@
 {
 "picture":"./images/booki.png",
 "title":"Maquette Booki",
-"texte":" L'objectif du projet Booki était de réaliser la maquette du site en HTLM et CSS uniquement. HTML et CSS sont fondamentaux car ils font partie des langages qu'un navigateur Web comprend. Ils permettent de créer toute la partie visuelle d'un site web et sont utilisés par tous les frameworks front-end type React mais également par toutes les applications plus classique comme Node.js.",
+"texte":" L'objectif du projet Booki était de réaliser la maquette du site en HTLM et CSS uniquement. HTML et CSS sont fondamentaux car ils font partie des langages compris par les navigateurs Web. Ils permettent de créer toute la partie visuelle d'un site web et sont utilisés par tous les frameworks front-end type React mais également par toutes les applications plus classiques comme Node.js.",
 "projet":"Maquette Booki",
 "formation":"Projet 1 - Openclassroom",
 "description":"Transformer une maquette en site web avec HTML et CSS",
@@ -21,7 +21,7 @@
 {
 "picture":"./images/panthere.png",
 "title":"Optimisation d'un site we",
-"texte":"C'est l'entreprise La Phanthère qui veut améliorerson son site web. Le but de ce projet était d'améliorer la vitesse, l'accessibilité et la SEO du site",
+"texte":"C'est l'entreprise La Phanthère qui veut améliorer son site web. Le but de ce projet était d'améliorer la vitesse, l'accessibilité et la SEO du site",
 "projet":"La Panthère",
 "formation":"Projet 3 - Openclassroom",
 "description":"Optimiser un site web existant",
@@ -30,7 +30,7 @@
 {
 "picture":"./images/kanap.png",
 "title":"Maquette Kanap",
-"texte":"L'objectif de ce projet était de reproduire une maquette en JavaScript. Il permet d'ajouter toute la partie interaction avec l'utilisateur et les serveurs. Il permet également la création de site web dynamique.",
+"texte":"L'objectif de ce projet était de reproduire une maquette en JavaScript. Ce langage permet d'ajouter toute la partie interaction avec l'utilisateur et les serveurs. Il permet également la création de site web dynamique.",
 "projet":"Maquette Kanap",
 "formation":"Projet 4 - Openclassroom",
 "description":"Construire un site-e commerce en JavaScript",
@@ -48,7 +48,7 @@
 {
 "picture":"./images/kasa.png",
 "title":"React",
-"texte":"Utilisation du framwork React pour reproduire une maquette. React a pour tâche de gérer la partie visuelle de l'application, de manière réactive. ",
+"texte":"Utilisation du framework React pour reproduire une maquette. React a pour tâche de gérer la partie visuelle de l'application, de manière réactive. ",
 "projet":"Maquette Kasa",
 "formation":"Projet 6 - Openclassroom",
 "description":"Céer une application web de location immobilière avec React",
