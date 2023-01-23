@@ -1,35 +1,89 @@
-.styleHeader{
-    justify-content: space-between;
-    align-items: center;
-    max-width: 100%;
-    padding: 0 50px;
-    height: 70px;
-    background-color: var(--nav);
-    
-    h1{
-        color: var(--color);
-        &:hover{
-            transform: scale(1.1);
-            cursor: pointer; 
-            color:var(--orange);
-          }   
+@use '../../assets/styles/mixins' as mixin;
+
+.header {
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 10px 20px;
+  height: 10vh;
+  background-color: var(--nav);
+  color: var(--color);
+  
+  h1{
+    display: flex;
+    color: var(--color);
+    @include mixin.sm{
+        font-size: 25px;
     }
-    nav {
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        .navLister{
-            align-items: center;   
-        li{
-            display: flex;
-            padding: 10px;  
-            color: var(--color);  
-            &:hover{
-              transform: scale(1.1);
-              cursor: pointer; 
-              color: var(--orange);
-            }   
-            }
+    @include mixin.xs{
+        font-size: large;
+    }
+    &:hover{
+        color: var(--orange);
+        transform: scale(1.1);
+    }
+    
+  }
+  .headerList{
+    display: flex;
+
+    @include mixin.xs {
+    display: none;
+  }
+    
+    li{
+        color: var(--color);
+        padding: 10px;
+        font-size: large;
+        @include mixin.sm{
+            font-size: medium;
+            padding: 5px;
+        }
+        &:hover{
+            color: var(--orange);
+            transform: scale(1.1);
         }
     }
+  }
+  
 }
+
+.headerXs {
+  display: none ;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  font-size: 20px;
+  
+  &:hover {
+    color: var(--orange);
+  }
+  @include mixin.xs {
+    display: block ;
+  }
+}
+.MenuContainer {
+    position: absolute;
+    padding: 10px 10px 10px 25px;
+    top: 68px;
+    right: 10px;
+    width: 150px;
+    border: 3px solid var(--color);
+    border-radius: 20px;
+    li {
+        color: var(--color);
+        padding: 3px;
+        &:hover{
+            color: var(--orange);
+            transform: scale(1.1);
+        }
+     
+    }
+  }
+  .calc {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+  }

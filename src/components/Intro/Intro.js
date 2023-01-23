@@ -3,7 +3,7 @@ import image from "../../assets/images/profil.png";
 
 function Intro() {
   return (
-    <section className={`d-flex ${styles.intro}`}>
+    <section className={`d-flex br ${styles.intro}`}>
       <div className={`d-flex flex-column ${styles.texte}`}>
         <h2>Bonjour, je suis Amélie</h2>
         <p>
