@@ -1,32 +1,80 @@
+@use '../../assets/styles/mixins' as mixin;
+
 .intro{
     justify-content: center;
     align-items: center;
     height: 60vh;
     background-color: var(--nav);
     box-shadow: var(--box-shadow);
+    @include mixin.xs{
+        flex-direction: column-reverse;
+    }
     .texte{
+        justify-content: center;
         color: var(--color);
         width: 40%;
-        height: 250px;
-        padding: 50px;
+        height: 300px;
+        padding: 20px 50px;
         border: 3px solid var(--orange);
         border-radius: 10px;
-        text-align: justify;
+        @include mixin.md {
+            height: 250px;
+            padding: 20px;
+        }
+        @include mixin.sm{
+            font-size: medium; 
+            padding: 10px;
+            height: 250px;
+        }
+        @include mixin.xs{
+            width: 80%;
+            height: 200px;
+            font-size: small;
+            padding: 10px;
+        }
+        
     }
     .image{
         padding: 60px;
+        @include mixin.sm{
+            padding: 30px; 
+        }
+        @include mixin.xs{
+            padding: 10px;
+        }
     }
     img{
-        height: 250px;
-        width: 250px;
+        height: 300px;
+        width: 300px;
         object-fit: cover;
         border-radius: 10px;
+        @include mixin.md{
+            height: 250px;
+            width: 250px; 
+        }
+        @include mixin.sm{
+            height: 250px;
+            width: 250px; 
+        }
+        @include mixin.xs{
+            width: 200px;
+            height: 200px;
+        }
         
         
     }
     h2 {
         font-size: 28px;
         color: var(--color);
+        @include mixin.md{
+            font-size: 23px; 
+        }
+        @include mixin.sm{
+            font-size: large; 
+        }
+        @include mixin.xs{
+           font-size: medium;
+        }
     }
     
 }
