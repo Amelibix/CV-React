@@ -1,19 +1,23 @@
+@use '../assets/styles/mixins' as mixin;
+
 .content{
     .propos{
         padding: 50px 100px ;
         background-color: var(--gray-2);
+        @include mixin.sm-lt{
+            padding: 20px;
+        }
         h2{
             padding: 50px 0;
             font-size: 28px;
+            @include mixin.sm-lt{
+               padding: 20px 0;
+               font-size: 20px;
+            }
+            
         }
 
-        .container{
-            justify-content: center;
-            width: 100%;
-            .containerPropos{
-                margin: 10px;
-            }
-        }
+        
     }
     .technologie{
         padding: 50px 100px;

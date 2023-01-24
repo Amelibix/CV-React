@@ -8,6 +8,7 @@
     box-shadow: var(--box-shadow);
     @include mixin.xs{
         flex-direction: column-reverse;
+        justify-content: space-evenly;
     }
     .texte{
         justify-content: center;

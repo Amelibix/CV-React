@@ -12,7 +12,9 @@ function Content() {
 
   useEffect(() => {
     async function fetchdata() {
-      const response = await fetch("https://raw.githubusercontent.com/Amelibix/CV-React/main/public/data.json");
+      const response = await fetch(
+        "https://raw.githubusercontent.com/Amelibix/CV-React/main/public/data.json"
+      );
       const data = await response.json();
       setData(data);
       console.log(data);
@@ -22,7 +24,9 @@ function Content() {
 
   useEffect(() => {
     async function fetchdata() {
-      const response = await fetch("https://raw.githubusercontent.com/Amelibix/CV-React/main/public/dataTechno.json");
+      const response = await fetch(
+        "https://raw.githubusercontent.com/Amelibix/CV-React/main/public/dataTechno.json"
+      );
       const dataTechno = await response.json();
       setDataTehno(dataTechno);
     }
