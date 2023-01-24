@@ -49,7 +49,7 @@ function Content() {
           />
         ))}
       </div>
-      <div id="techno" className={` br ${styles.technologie}`}>
+      <div id="techno" className={styles.technologie}>
         <h2>Technologie</h2>
         <p>
           J'ai effectué 6 Projets avec Openclassroom, qui m'ont permis de voir
@@ -64,7 +64,7 @@ function Content() {
           />
         ))}
       </div>
-      <div className={` ${styles.projet}`} id="projet">
+      <div className={` br ${styles.projet}`} id="projet">
         <h2>Projet</h2>
         <div className={`d-flex ${styles.grid}`}>
           {dataTechno.map((dataTechno, index) => (

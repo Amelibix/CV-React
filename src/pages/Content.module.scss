@@ -11,7 +11,7 @@
             padding: 50px 0;
             font-size: 28px;
             @include mixin.sm-lt{
-               padding: 20px 0;
+               padding: 15px 0;
                font-size: 20px;
             }
             
@@ -29,7 +29,7 @@
         h2{
             font-size: 28px;
             @include mixin.sm-lt{
-                padding: 20px 0;
+                padding: 15px 0;
                 font-size: 20px;
              }
         }
@@ -46,12 +46,32 @@
         grid-auto-columns: repeat(3,300px);
         gap: 20px;
         margin: 30px;
+        @include mixin.md-lt{
+            grid-template-columns: repeat(2,300px);
+            grid-auto-columns: repeat(2,300px);
+         }
+         @include mixin.sm-lt{
+            grid-template-columns: 1fr ;
+            grid-auto-columns: 1fr;
+         }
+         
     }
     .projet{
         padding: 50px 100px;
         background-color: var(--gray-2);
+        @include mixin.sm-lt{
+            padding: 0 20px;
+        }
+        @include mixin.xs{
+            padding: 0;
+        }
+
         h2{
             font-size: 28px;
+            @include mixin.sm-lt{
+                padding: 0 0 10px 20px;
+                font-size: 20px;
+             }
             
         }
     }

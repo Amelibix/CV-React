@@ -6,8 +6,8 @@ function Projet({ projet, formation, description, lien }) {
       <a href={lien}>
         <i className="fa-regular fa-folder"></i>
       </a>
-      <h2>{projet}</h2>
-      <h3>{formation}</h3>
+      <h3>{projet}</h3>
+      <h4>{formation}</h4>
       <p>{description}</p>
     </div>
   );

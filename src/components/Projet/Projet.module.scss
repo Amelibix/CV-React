@@ -1,3 +1,5 @@
+@use '../../assets/styles/mixins' as mixin;
+
 .containerProjet {
 
     background-color: var(--nav);
@@ -5,19 +7,38 @@
     height: 250px;
     border-radius: 10px;
     padding: 25px;
-    h2{
-        padding: 10px 0;
+    @include mixin.sm-lt{
+        height: auto;
+     }
+     @include mixin.xs{
+        padding: 15px;
+    }
+    h3{
+        padding: 5px 0 10px 0;
+        @include mixin.sm-lt{
+            font-size: 20px;
+         }
+    }
+    h4{
+        @include mixin.sm-lt{
+            font-size: medium;
+         }
+    }
+    p{
+        @include mixin.sm-lt{
+            font-size: 14px;
+         }
     }
     i{
         color: var(--orange);
         font-size: 23px;
-
+            &:hover{
+            transform: scale(1.3);
+            cursor: pointer;
+            }
     }
     a{
         text-align: right;
-        &:hover{
-        transform: scaleY(1.1);
-        cursor: pointer;
-        }
+        
     }
 }
