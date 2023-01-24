@@ -49,7 +49,7 @@ function Content() {
           />
         ))}
       </div>
-      <div id="techno" className={styles.technologie}>
+      <div id="techno" className={` br ${styles.technologie}`}>
         <h2>Technologie</h2>
         <p>
           J'ai effectué 6 Projets avec Openclassroom, qui m'ont permis de voir

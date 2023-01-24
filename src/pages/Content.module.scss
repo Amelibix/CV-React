@@ -22,8 +22,21 @@
     .technologie{
         padding: 50px 100px;
         background-color: var(--gray-2);
+        @include mixin.sm-lt{
+            padding: 20px;
+            
+        }
         h2{
             font-size: 28px;
+            @include mixin.sm-lt{
+                padding: 20px 0;
+                font-size: 20px;
+             }
+        }
+        p{
+            @include mixin.sm-lt{
+                font-size: 14px;
+             }
         }
     }
     .grid {

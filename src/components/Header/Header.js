@@ -6,7 +6,7 @@ function Header() {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <header className={`${styles.header} d-flex`}>
+    <header id="haut" className={`${styles.header} d-flex`}>
       <div>
         <a href="https://raw.githubusercontent.com/Amelibix/CV-React/main/public/CVAmelie.pdf">
           <h1>Amélie Brun</h1>
