@@ -64,7 +64,7 @@ function Content() {
           />
         ))}
       </div>
-      <div className={` br ${styles.projet}`} id="projet">
+      <div className={styles.projet} id="projet">
         <h2>Projet</h2>
         <div className={`d-flex ${styles.grid}`}>
           {dataTechno.map((dataTechno, index) => (
