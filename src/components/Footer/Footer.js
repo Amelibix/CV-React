@@ -1,7 +1,7 @@
 import styles from "./Footer.module.scss";
 function Footer() {
   return (
-    <footer className={`  br d-flex ${styles.footer}`}>
+    <footer className={`d-flex ${styles.footer}`}>
       <h3>Designed & Build by Amélie Brun</h3>
       <a href="#haut">
         <div className={` d-flex ${styles.arrow}`}>
