@@ -8,7 +8,7 @@ function Header() {
   return (
     <header id="haut" className={`${styles.header} d-flex`}>
       <div>
-        <a href="https://raw.githubusercontent.com/Amelibix/CV-React/main/public/CVAmelie.pdf">
+        <a href="https://raw.githubusercontent.com/Amelibix/CV-React/main/public/CV-Amelie.pdf">
           <h1>Amélie Brun</h1>
         </a>
       </div>
